@@ -1,9 +1,13 @@
 package com.swift.hotta.tapbreak01;
 
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,8 +23,13 @@ public class GameCanvasFragment extends Fragment {
     View view;
 
     public GameCanvasFragment() {
-        // Required empty public constructor
-        myApplication = (MyApplication) getActivity().getApplication();
+        super();
+    }
+
+    @SuppressLint("ValidFragment")
+    public GameCanvasFragment(AppCompatActivity appCompatActivity) {
+        this();
+        myApplication = (MyApplication) appCompatActivity.getApplication();
     }
 
 
@@ -37,8 +46,11 @@ gameView();
         return view;
     }
 
+
+
     private void gameView() {
 
+        view.setBackgroundColor(Color.BLUE);
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

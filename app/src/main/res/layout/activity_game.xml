@@ -25,21 +25,21 @@
 
         </LinearLayout>
 
-        <fragment
-            android:id="@+id/fragment"
-            android:name="com.swift.hotta.tapbreak01.GameCanvasFragment"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <fragment
+                android:id="@+id/fragment"
+                android:name="com.swift.hotta.tapbreak01.GameCanvasFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="bottom"
                 android:orientation="horizontal">
 

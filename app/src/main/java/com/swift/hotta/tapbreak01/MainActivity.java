@@ -30,10 +30,12 @@ public class MainActivity extends AppCompatActivity {
         myApplication = (MyApplication) getApplication();
 
 
-
+        this.setLevelList();
         this.setMainLevelSpinner();
 
 
+        this.mainStartButtonOnClick();
+        this.mainScoreButtonOnClick();
 
 
     }

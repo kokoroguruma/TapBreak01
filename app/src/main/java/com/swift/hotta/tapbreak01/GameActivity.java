@@ -14,7 +14,7 @@ public class GameActivity extends AppCompatActivity {
 
         myApplication = (MyApplication) getApplication();
 
-        GameCanvasFragment gameCanvasFragment = new GameCanvasFragment();
+        GameCanvasFragment gameCanvasFragment = new GameCanvasFragment(this);
 
 
 

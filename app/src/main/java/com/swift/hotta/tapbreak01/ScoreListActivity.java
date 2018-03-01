@@ -20,7 +20,8 @@ public class ScoreListActivity extends AppCompatActivity {
 
         myApplication = (MyApplication) getApplication();
 
-        setScoreList();
+        this.setScoreList();
+        this.setScoreListReturnButtonOnClick();
 
 
     }
