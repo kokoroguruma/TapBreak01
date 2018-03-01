@@ -5,4 +5,7 @@
     <string name="mainStartButtonStr">START</string>
     <string name="mainScoreButtonStr">スコア</string>
 
+    <string name="scoreListTitleStr">スコア</string>
+    <string name="scoreListReturnStr">戻る</string>
+
 </resources>
