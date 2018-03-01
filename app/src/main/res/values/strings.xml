@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TapBreak01</string>
     <string name="mainTitleStr">TapBreak</string>
+    <string name="mainLevelText">LEVEL:</string>
+    <string name="mainStartButtonStr">START</string>
+    <string name="mainScoreButtonStr">スコア</string>
+
 </resources>
