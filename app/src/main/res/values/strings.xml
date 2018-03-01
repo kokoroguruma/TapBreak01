@@ -8,4 +8,8 @@
     <string name="scoreListTitleStr">スコア</string>
     <string name="scoreListReturnStr">戻る</string>
 
+    <string name="gamePauseButtonStr">一時停止</string>
+
+
+
 </resources>

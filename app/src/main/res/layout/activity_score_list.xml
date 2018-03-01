@@ -19,14 +19,26 @@
             android:text="@string/scoreListTitleStr"
             android:textSize="30sp" />
 
-        <ListView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/scoreListReturn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/scoreListReturnStr" />
+            <ListView
+                android:id="@+id/scoreListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+            <Button
+                android:id="@+id/scoreListReturnButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scoreListReturnStr" />
+
+        </LinearLayout>
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
